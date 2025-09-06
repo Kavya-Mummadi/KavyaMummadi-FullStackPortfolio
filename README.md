@@ -143,6 +143,6 @@ npm start
 
 ## 🚀 Deployment
 
-The portfolio is deployed using **Vercel** (choose your platform). It is fully responsive and optimized for production.  
+The frontend of this portfolio is deployed on **Vercel**, fully responsive and optimized for production. The backend is deployed on **Render**. 
 
-**Live Site:** [https://yourportfolio.com]
+**Live Site:** [https://kavya-mummadi-full-stack-portfolio.vercel.app/]
