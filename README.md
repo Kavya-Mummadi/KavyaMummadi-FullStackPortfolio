@@ -104,13 +104,13 @@ This portfolio website serves as a personal showcase for my work as a web develo
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/Kavya-Mummadi/KavyaMummadi-FullStackPortfolio.git
 ```
 
 2. Navigate into the project directory:
 
 ```bash
-cd portfolio
+cd KavyaMummadi-FullStackPortfolio
 ```
 
 3. Install dependencies for frontend:
