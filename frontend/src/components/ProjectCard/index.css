@@ -1,0 +1,217 @@
+.project-card {
+    background-color: #091828;
+    width: 350px;
+    border-radius: 10px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.project-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 10px 25px #00000066;
+    background-color: #0d2236;
+    cursor: pointer;
+}
+
+.project-image {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 225px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.project-card-text-container {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.project-skills-heading {
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: 900;
+    color: #d4e3f5;
+    margin-bottom: 20px;
+}
+
+.project-skills-container {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.project-skill-item {
+    border: 1px solid #c0c5cc;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: "Roboto";
+    color: #ffffff;
+    font-weight: 500;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.project-name-heading {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 19x;
+    font-weight: bold;
+    text-align: center;
+}
+
+.project-description {
+    font-family: "Roboto";
+    color: #d3d6d9;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.project-output-visible-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    list-style-type: none;
+    background-color: transparent;
+    margin-top: auto;
+    align-self: flex-end;
+}
+
+.project-output-visible-item {
+    margin-right: 25px;
+    background-color: transparent;
+    padding: 0px;
+
+}
+
+.project-output-item-button {
+    background-color: transparent;
+    color: #faf0be;
+    border: none;
+}
+
+.output-icon {
+    width: 25px;
+    height: 25px;
+}
+
+/* Tablet devices (768px - 1024px) */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .project-card {
+        width: 300px;
+        margin-right: 20px;
+    }
+
+    .project-image {
+        height: 200px;
+    }
+
+    .project-card-text-container {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 20px;
+    }
+
+    .project-skills-heading {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .project-skill-item {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font-size: 14px;
+        margin-right: 8px;
+        margin-bottom: 8px;
+    }
+
+    .project-name-heading {
+        font-size: 18px;
+    }
+
+    .project-description {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .output-icon {
+        width: 22px;
+        height: 22px;
+    }
+}
+
+/* Mobile devices (max-width: 767px) */
+@media (max-width: 767px) {
+    .project-card {
+        width: 90%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .project-image {
+        height: 180px;
+    }
+
+    .project-card-text-container {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 6px;
+        padding-bottom: 15px;
+    }
+
+    .project-skills-heading {
+        font-size: 18px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    .project-skills-container {
+        justify-content: center;
+        gap: 6px;
+    }
+
+    .project-skill-item {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        font-size: 13px;
+        margin-right: 6px;
+        margin-bottom: 6px;
+    }
+
+    .project-name-heading {
+        font-size: 16px;
+    }
+
+    .project-description {
+        font-size: 14px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .project-output-visible-container {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .output-icon {
+        width: 20px;
+        height: 20px;
+    }
+}

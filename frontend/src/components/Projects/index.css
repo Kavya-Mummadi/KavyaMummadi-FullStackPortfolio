@@ -1,0 +1,152 @@
+.projects-bg {
+    width: 100vw;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 125px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    scroll-margin-top: 0px;
+}
+
+
+.projects-heading {
+    font-family: "Roboto";
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.projects-heading-highlight {
+    font-family: 45px;
+    color: #ff4500;
+    font-weight: bold;
+}
+
+.projects-description {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.projects-visible-container {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.projects-github-button {
+    display: flex;
+    align-items: center;
+    background-color: #ff8C00;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    border: 0px solid;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.right-arrow-icon {
+    margin-left: 10px;
+}
+
+.projects-button-container {
+    margin-top: 25px;
+}
+
+/* Tablet devices: 768px - 1024px */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .projects-bg {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 100px;
+        padding-bottom: 20px;
+    }
+
+    .projects-heading {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .projects-heading-highlight {
+        font-size: 32px;
+    }
+
+    .projects-description {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .projects-visible-container {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .projects-github-button {
+        font-size: 18px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .right-arrow-icon {
+        font-size: 18px;
+    }
+}
+
+/* Mobile devices: max-width 767px */
+@media (max-width: 767px) {
+    .projects-bg {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+
+    .projects-heading {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .projects-heading-highlight {
+        font-size: 28px;
+    }
+
+    .projects-description {
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .projects-visible-container {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .projects-github-button {
+        font-size: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .right-arrow-icon {
+        font-size: 16px;
+    }
+}

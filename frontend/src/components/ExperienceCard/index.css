@@ -1,0 +1,111 @@
+.experience-card-bg {
+    background-color: #28282b;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #808080;
+    border-radius: 10px;
+    width: 350px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.1s ease;
+    text-align: center;
+}
+
+.experience-card-bg:hover {
+    box-shadow: 0 8px 20px #ffd70099;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+
+.experience-name {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.experience-role {
+    margin: 0px;
+    padding-top: 10px;
+    font-family: "Roboto";
+    color: orangered;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.experience-duration {
+    margin: 0px;
+    padding-top: 15px;
+    font-family: "Roboto";
+    color: #f6f6f6;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.experience-role-description {
+    padding-top: 15px;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    color: #c4c4c4;
+}
+
+/* Tablet devices (768px - 1024px) */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .experience-card-bg {
+        width: 300px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+        padding: 12px;
+    }
+
+    .experience-name {
+        font-size: 26px;
+    }
+
+    .experience-role {
+        font-size: 22px;
+        padding-top: 8px;
+    }
+
+    .experience-duration {
+        font-size: 16px;
+        padding-top: 12px;
+    }
+
+    .experience-role-description {
+        font-size: 16px;
+        padding-top: 12px;
+    }
+}
+
+/* Mobile devices (max-width: 767px) */
+@media (max-width: 767px) {
+    .experience-card-bg {
+        width: 90%;
+        margin-right: 0;
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+
+    .experience-name {
+        font-size: 22px;
+    }
+
+    .experience-role {
+        font-size: 18px;
+        padding-top: 6px;
+    }
+
+    .experience-duration {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+
+    .experience-role-description {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+}

@@ -1,0 +1,224 @@
+.home {
+    padding-top: 100px;
+}
+
+.home-bg {
+    background-color: #000000;
+    margin-top: 0px;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.Portfolio-picture {
+    background-color: #343634;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 250px;
+}
+
+.portfolio-image {
+    width: 93%;
+    border-radius: 210px;
+}
+
+.porfolio-intro-text-container {
+    width: 60%;
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.portfolio-welcome-text {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.porfolio-name-highlight {
+    color: #f76806;
+    font-size: 45px;
+}
+
+.portfolio-intro-para {
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.portfolio-intro-para-highlight {
+    font-family: "Roboto";
+    color: #f76806;
+    font-size: 30px;
+}
+
+.home-view-work-button {
+    background-color: #ff8C00;
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 5px 5px #585b58;
+    margin-top: 20px;
+}
+
+.scroll-indicator-container {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    animation: bounce 0.8s infinite;
+}
+
+.scroll-indicator-container .arrow {
+    display: block;
+    font-size: 20px;
+    margin-top: 2px;
+    font-weight: bold;
+    color: #f76806;
+}
+
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+/* Tablet devices (768px - 1024px) */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .home-bg {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 60px;
+    }
+
+    .Portfolio-picture {
+        width: 350px;
+        height: 350px;
+        border-radius: 175px;
+    }
+
+    .portfolio-image {
+        width: 90%;
+        border-radius: 160px;
+    }
+
+    .porfolio-intro-text-container {
+        width: 60%;
+        padding-top: 40px;
+    }
+
+    .portfolio-welcome-text {
+        font-size: 32px;
+    }
+
+    .porfolio-name-highlight {
+        font-size: 36px;
+    }
+
+    .portfolio-intro-para {
+        font-size: 20px;
+    }
+
+    .portfolio-intro-para-highlight {
+        font-size: 25px;
+    }
+
+    .home-view-work-button {
+        font-size: 18px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+/* Mobile devices (max-width: 767px) */
+@media (max-width: 767px) {
+    .home-bg {
+
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 0px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .Portfolio-picture {
+        width: 250px;
+        height: 250px;
+        border-radius: 125px;
+    }
+
+    .portfolio-image {
+        width: 90%;
+        border-radius: 110px;
+    }
+
+    .porfolio-intro-text-container {
+        width: 90%;
+        padding-top: 30px;
+    }
+
+    .portfolio-welcome-text {
+        font-size: 28px;
+    }
+
+    .porfolio-name-highlight {
+        font-size: 32px;
+    }
+
+    .portfolio-intro-para {
+        font-size: 18px;
+    }
+
+    .portfolio-intro-para-highlight {
+        font-size: 22px;
+    }
+
+    .home-view-work-button {
+        font-size: 16px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .scroll-indicator-container {
+        font-size: 16px;
+    }
+
+    .scroll-indicator-container .arrow {
+        font-size: 18px;
+    }
+}
