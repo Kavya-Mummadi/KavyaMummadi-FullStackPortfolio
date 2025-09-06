@@ -36,63 +36,63 @@ This portfolio website serves as a personal showcase for my work as a web develo
 ## 💼 Project Structure
 ```bash 
   /KavyaMummadi-FullStackPortfolio
-│
-├── /frontend
-│   ├── /node_modules
-│   ├── /public
-│   │   ├── index.html
-│   │   ├── Kavya_Mummadi.pdf
-│   │   └── manifest.json
-│   ├── /src
-│   │   ├── /components
-│   │   │   ├── /AboutMe
-│   │   │   │   ├── index.js
-│   │   │   │   └── index.css
-│   │   │   ├── /Contact
-│   │   │   │   ├── index.js
-│   │   │   │   └── index.css
-│   │   │   ├── /ContactInfo
-│   │   │   │   ├── index.js
-│   │   │   │   └── index.css
-│   │   │   ├── /Experience
-│   │   │   │   ├── index.js
-│   │   │   │   └── index.css
-│   │   │   ├── /Footer
-│   │   │   │   ├── index.js
-│   │   │   │   └── index.css
-│   │   │   ├── /Header
-│   │   │   │   ├── index.js
-│   │   │   │   └── index.css
-│   │   │   ├── /Home
-│   │   │   │   ├── index.js
-│   │   │   │   └── index.css
-│   │   │   ├── /ProjectCard
-│   │   │   │   ├── index.js
-│   │   │   │   └── index.css
-│   │   │   ├── /Projects
-│   │   │   │   ├── index.js
-│   │   │   │   └── index.css
-│   │   │   └── /Skills
-│   │   │       ├── index.js
-│   │   │       └── index.css
-│   │   ├── App.js
-│   │   ├── App.css
-│   │   ├── index.js
-│   │   └── index.css
-│   ├── .env
-│   ├── .gitignore
-│   ├── package-lock.json
-│   ├── package.json
-│   └── README.md
-│
-├── /backend
-│   ├── /node_modules
-│   ├── index.js
-│   ├── package.json
-│   ├── package-lock.json
-│   └── portfolio.db
-│
-└── README.md   (root-level project documentation)
+      │
+      ├── /frontend
+      │   ├── /node_modules
+      │   ├── /public
+      │   │   ├── index.html
+      │   │   ├── Kavya_Mummadi.pdf
+      │   │   └── manifest.json
+      │   ├── /src
+      │   │   ├── /components
+      │   │   │   ├── /AboutMe
+      │   │   │   │   ├── index.js
+      │   │   │   │   └── index.css
+      │   │   │   ├── /Contact
+      │   │   │   │   ├── index.js
+      │   │   │   │   └── index.css
+      │   │   │   ├── /ContactInfo
+      │   │   │   │   ├── index.js
+      │   │   │   │   └── index.css
+      │   │   │   ├── /Experience
+      │   │   │   │   ├── index.js
+      │   │   │   │   └── index.css
+      │   │   │   ├── /Footer
+      │   │   │   │   ├── index.js
+      │   │   │   │   └── index.css
+      │   │   │   ├── /Header
+      │   │   │   │   ├── index.js
+      │   │   │   │   └── index.css
+      │   │   │   ├── /Home
+      │   │   │   │   ├── index.js
+      │   │   │   │   └── index.css
+      │   │   │   ├── /ProjectCard
+      │   │   │   │   ├── index.js
+      │   │   │   │   └── index.css
+      │   │   │   ├── /Projects
+      │   │   │   │   ├── index.js
+      │   │   │   │   └── index.css
+      │   │   │   └── /Skills
+      │   │   │       ├── index.js
+      │   │   │       └── index.css
+      │   │   ├── App.js
+      │   │   ├── App.css
+      │   │   ├── index.js
+      │   │   └── index.css
+      │   ├── .env
+      │   ├── .gitignore
+      │   ├── package-lock.json
+      │   ├── package.json
+      │   └── README.md
+      │
+      ├── /backend
+      │   ├── /node_modules
+      │   ├── index.js
+      │   ├── package.json
+      │   ├── package-lock.json
+      │   └── portfolio.db
+      │
+      └── README.md   (root-level project documentation)
 
 
 
