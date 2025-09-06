@@ -35,22 +35,67 @@ This portfolio website serves as a personal showcase for my work as a web develo
 
 ## 💼 Project Structure
 ```bash 
+  /KavyaMummadi-FullStackPortfolio
+      │
+      ├── /frontend
+      │   ├── /node_modules
+      │   ├── /public
+      │   │   ├── index.html
+      │   │   ├── Kavya_Mummadi.pdf
+      │   │   └── manifest.json
+      │   ├── /src
+      │   │   ├── /components
+      │   │   │   ├── /AboutMe
+      │   │   │   │   ├── index.js
+      │   │   │   │   └── index.css
+      │   │   │   ├── /Contact
+      │   │   │   │   ├── index.js
+      │   │   │   │   └── index.css
+      │   │   │   ├── /ContactInfo
+      │   │   │   │   ├── index.js
+      │   │   │   │   └── index.css
+      │   │   │   ├── /Experience
+      │   │   │   │   ├── index.js
+      │   │   │   │   └── index.css
+      │   │   │   ├── /Footer
+      │   │   │   │   ├── index.js
+      │   │   │   │   └── index.css
+      │   │   │   ├── /Header
+      │   │   │   │   ├── index.js
+      │   │   │   │   └── index.css
+      │   │   │   ├── /Home
+      │   │   │   │   ├── index.js
+      │   │   │   │   └── index.css
+      │   │   │   ├── /ProjectCard
+      │   │   │   │   ├── index.js
+      │   │   │   │   └── index.css
+      │   │   │   ├── /Projects
+      │   │   │   │   ├── index.js
+      │   │   │   │   └── index.css
+      │   │   │   └── /Skills
+      │   │   │       ├── index.js
+      │   │   │       └── index.css
+      │   │   ├── App.js
+      │   │   ├── App.css
+      │   │   ├── index.js
+      │   │   └── index.css
+      │   ├── .env
+      │   ├── .gitignore
+      │   ├── package-lock.json
+      │   ├── package.json
+      │   └── README.md
+      │
+      ├── /backend
+      │   ├── /node_modules
+      │   ├── index.js
+      │   ├── package.json
+      │   ├── package-lock.json
+      │   └── portfolio.db
+      │
+      └── README.md   (root-level project documentation)
 
-/portfolio
-│
-├── /public
-│ └── index.html
-├── /src
-│ ├── components
-│ │ ├── AboutMe.js
-│ │ ├── Projects.js
-│ │ ├── Contact.js
-│ │ └── Navbar.js
-│ ├── App.js
-│ ├── index.js
-│ └── index.css
-├── server.js
-└── package.json
+
+
 ```
 
 ---
@@ -59,13 +104,13 @@ This portfolio website serves as a personal showcase for my work as a web develo
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/Kavya-Mummadi/KavyaMummadi-FullStackPortfolio.git
 ```
 
 2. Navigate into the project directory:
 
 ```bash
-cd portfolio
+cd KavyaMummadi-FullStackPortfolio
 ```
 
 3. Install dependencies for frontend:
@@ -98,6 +143,6 @@ npm start
 
 ## 🚀 Deployment
 
-The portfolio is deployed using **Vercel** (choose your platform). It is fully responsive and optimized for production.  
+The frontend of this portfolio is deployed on **Vercel**, fully responsive and optimized for production. The backend is deployed on **Render**. 
 
-**Live Site:** [https://yourportfolio.com]
+**Live Site:** [https://kavya-mummadi-full-stack-portfolio.vercel.app/]
