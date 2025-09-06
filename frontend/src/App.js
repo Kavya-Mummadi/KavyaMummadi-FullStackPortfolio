@@ -29,7 +29,7 @@ class App extends Component {
   }
 
   getPortfolioData = async () => {
-    const response = await fetch("http://localhost:5000/")
+    const response = await fetch("https://kavya-mummadi-portfolio.onrender.com/")
     const data = await response.json()
 
     const headerItems = data.headerItems.map(eachItem => ({
